@@ -25,6 +25,10 @@ public class Card {
 		this.suit = suit;
 	}
 
+	public int getValue() {
+		return cardValue.getNumValue();
+	}
+
 	@Override
 	public String toString() {
 		return "Card [" + cardValue + " of " + suit + "]";
